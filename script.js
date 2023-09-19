@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const message = document.getElementById('message').value;
 
         alert(`Email: ${email}\nSubject: ${subject}\nMessage: ${message}`);
-		alert('Thank you for your submission!');
+		alert(' Thank you, for your submission! ');
 		contactForm.reset();
     });
 });
