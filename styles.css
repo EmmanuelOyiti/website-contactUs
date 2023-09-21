@@ -1,3 +1,17 @@
+
+
+header {
+    font-size: small;
+   
+    color: white;
+    text-align: left;
+   
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +23,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: black;
 }
-
 
 main {
     width: 100%;
@@ -61,4 +74,11 @@ button {
     border: none;
     border-radius: 20px;
     cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
 }
