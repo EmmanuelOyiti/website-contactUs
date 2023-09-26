@@ -1,5 +1,3 @@
-
-
 header {
     font-size: small;
     color: white;
@@ -56,7 +54,11 @@ li a{
 }
 
 .search {
-    display: flex; align-items:center ; text-decoration: none;
+    padding: 10px; display: flex; align-items: center; text-decoration: none;
+}
+
+.search-input{ 
+   padding-left: 20px; background-color:#333; border-radius: 15px; text-decoration: none; border: none; align-items: center;
 }
 
 .login-link {
@@ -64,7 +66,7 @@ li a{
  }
 
  .login-link a {
-    color: white; font-weight: bold; font-size: 10px; text-decoration: none; text-align: center;
+    padding-left: 10px; color: white; font-weight: bold; font-size: 10px; text-decoration: none; text-align: center;
 }
 
  button a{
@@ -136,8 +138,26 @@ button {
 }
 
 footer {
-    text-align: center;
-    padding: 10px 0;
     background-color: #333;
     color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.footer-text p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.additional-text p {
+    text-align: right;
+    font-size: 16px;
 }
